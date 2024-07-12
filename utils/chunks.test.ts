@@ -1,6 +1,6 @@
 import { chunk } from "./chunks";
 
-describe.only("chunk", () => {
+describe("chunk", () => {
   const array = [1, 2, 3, 4, 5];
 
   it("should return chunked arrays", () => {
